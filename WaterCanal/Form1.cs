@@ -1,19 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace WaterCanal
 {
     public partial class Form1 : Form
     {
-        Base wateBase = new Base();
+        private Base wateBase = new Base();
 
         public Form1()
         { 

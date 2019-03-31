@@ -1,14 +1,8 @@
-﻿using Microsoft.Office.Interop.Word;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System;
 
 namespace WaterCanal
 {
-    static class Program
+    class Program
     {
         [STAThread]
         static void Main()
